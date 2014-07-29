@@ -58,7 +58,7 @@
             // 
             // buttonRec
             // 
-            this.buttonRec.Image = global::FinalProject.Properties.Resources.recButton4;
+            this.buttonRec.Image = global::FinalProject.Properties.Resources.recButton1;
             this.buttonRec.Location = new System.Drawing.Point(84, 209);
             this.buttonRec.Name = "buttonRec";
             this.buttonRec.Size = new System.Drawing.Size(63, 63);

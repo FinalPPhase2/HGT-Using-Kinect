@@ -28,51 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonRecord = new System.Windows.Forms.Button();
             this.groupBoxRecordMode = new System.Windows.Forms.GroupBox();
+            this.buttonTraining = new System.Windows.Forms.Button();
+            this.buttonRec = new System.Windows.Forms.Button();
             this.buttonTestMode = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBoxRecordMode.SuspendLayout();
             this.SuspendLayout();
             // 
-            // buttonRecord
-            // 
-            this.buttonRecord.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.buttonRecord.Location = new System.Drawing.Point(84, 221);
-            this.buttonRecord.Name = "buttonRecord";
-            this.buttonRecord.Size = new System.Drawing.Size(63, 63);
-            this.buttonRecord.TabIndex = 0;
-            this.buttonRecord.UseVisualStyleBackColor = true;
-            // 
             // groupBoxRecordMode
             // 
-            this.groupBoxRecordMode.Controls.Add(this.button2);
+            this.groupBoxRecordMode.Controls.Add(this.buttonTraining);
             this.groupBoxRecordMode.Controls.Add(this.buttonTestMode);
             this.groupBoxRecordMode.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.groupBoxRecordMode.Location = new System.Drawing.Point(69, 63);
+            this.groupBoxRecordMode.Location = new System.Drawing.Point(69, 20);
             this.groupBoxRecordMode.Name = "groupBoxRecordMode";
-            this.groupBoxRecordMode.Size = new System.Drawing.Size(100, 104);
+            this.groupBoxRecordMode.Size = new System.Drawing.Size(96, 161);
             this.groupBoxRecordMode.TabIndex = 1;
             this.groupBoxRecordMode.TabStop = false;
             this.groupBoxRecordMode.Text = "Record mode";
             // 
+            // buttonTraining
+            // 
+            this.buttonTraining.Location = new System.Drawing.Point(15, 92);
+            this.buttonTraining.Name = "buttonTraining";
+            this.buttonTraining.Size = new System.Drawing.Size(63, 63);
+            this.buttonTraining.TabIndex = 1;
+            this.buttonTraining.Text = "Training";
+            this.buttonTraining.UseVisualStyleBackColor = true;
+            // 
+            // buttonRec
+            // 
+            this.buttonRec.Image = global::FinalProject.Properties.Resources.recButton4;
+            this.buttonRec.Location = new System.Drawing.Point(84, 209);
+            this.buttonRec.Name = "buttonRec";
+            this.buttonRec.Size = new System.Drawing.Size(63, 63);
+            this.buttonRec.TabIndex = 2;
+            this.buttonRec.UseVisualStyleBackColor = true;
+            // 
             // buttonTestMode
             // 
+            this.buttonTestMode.Image = global::FinalProject.Properties.Resources.test;
             this.buttonTestMode.Location = new System.Drawing.Point(15, 19);
             this.buttonTestMode.Name = "buttonTestMode";
-            this.buttonTestMode.Size = new System.Drawing.Size(75, 23);
+            this.buttonTestMode.Size = new System.Drawing.Size(63, 63);
             this.buttonTestMode.TabIndex = 0;
-            this.buttonTestMode.Text = "Test";
             this.buttonTestMode.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(15, 75);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -80,8 +80,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(749, 417);
+            this.Controls.Add(this.buttonRec);
             this.Controls.Add(this.groupBoxRecordMode);
-            this.Controls.Add(this.buttonRecord);
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBoxRecordMode.ResumeLayout(false);
@@ -91,10 +91,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonRecord;
         private System.Windows.Forms.GroupBox groupBoxRecordMode;
         private System.Windows.Forms.Button buttonTestMode;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonTraining;
+        private System.Windows.Forms.Button buttonRec;
 
 
     }
